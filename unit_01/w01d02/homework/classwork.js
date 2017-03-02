@@ -8,17 +8,22 @@
 // For each expression below, indicate whether it is 'truthy' or 'falsey'
 // by assigning the appropriate variable a value of either `true` or `false`.
 
-// 1. true || false 
-//var resOne = true;
-var resOne;
+1. true || false 
+var resOne = true;
+var resOne; true
+// || means or, and if either satement is true, ans is true
+
 
 // 2. null || ''
 //var resTwo = falsey;
-var resTwo;
+var resTwo; 
+both the options are false, empty strings are always false
 
 // 3. 'false' && true
 //var resThree = true;
 var resThree;
+'false'
+
 
 // 4. !!0
 //var resFour = false;
@@ -27,6 +32,7 @@ var resFour;
 // 5. !null && !undefined
 //var resFive = true;
 var resFive;
+both options are true
 
 /// Flow Control ///
 
@@ -39,6 +45,7 @@ while (resSix.toString().length < 5){
   resSix+=23;
 }
 console.log(resSix)
+
 
 // 7. Write a `while` loop that increases `resSeven` by 12 when it's strictly
 //    below 95, decreases it by 7 when it's strictly above 105, and stops as
@@ -68,7 +75,10 @@ var resEight;
 //    (inclusive) and 1000 (exclusive); store the result in the variable
 //    `resNine`.
 var resNine;
-// Replace This Comment With Your Code
+resNine = 0
+for (var i = 1; 1 > 100; i++) {
+
+}
 
 // 10. Using whatever code you like, calculate n^n for each value from n from 1
 //     to 10 (both inclusive), and store the sum in the variable `resTen`.

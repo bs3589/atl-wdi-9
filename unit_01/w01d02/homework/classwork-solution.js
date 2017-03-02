@@ -42,7 +42,7 @@ while (resSeven > 105 || resSeven < 95) {
   } else if (resSeven < 95) { // could also just be `else`
     resSeven += 12;
   }
-}
+} 
 
 // 8. Write a `for` loop that counts from 0 (inclusive) to 1857 (exclusive) and
 //    calculates the sum of all of those numbers, storing the result in the
