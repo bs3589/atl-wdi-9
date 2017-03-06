@@ -51,16 +51,17 @@
 
 
 // Question 4
-function sumArray(sum) {
-	
- 
+function sumArray() 
+{
+
 }
 
 
-// // Question 4
-// function multiplyArray() {
 
-// }
+function multiplyArray() 
+{
+
+}
 
 
 // // Question 5
