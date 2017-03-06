@@ -4,7 +4,14 @@
 
 var timerUI = {
   drawNumericDisplay: function(timerValue){
-    // Your Code Here
+    
+
+
+
+
+
+
+    
   },
   drawProgressBars: function(timerValue){
     // Your Code Here

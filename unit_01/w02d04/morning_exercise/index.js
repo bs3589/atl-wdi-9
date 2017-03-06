@@ -4,9 +4,26 @@
 "use strict";
 /// DO NOT EDIT ABOVE THIS LINE ///
 
+
+
 var makeChange = function(price, payment) {
-  // Your Code Here
+	var change = price - payment;
+  	console.log(change);
+
+  	if (change === 0) {
+  		return change
+  	}
+  	else if (payment < price) {
+  		console.log("You still owe $" + change)
+  	}
+  	else if (payment > price) {
+  		console.log("Your change is $" + change)
+  	}
+
 };
+
+
+
 
 /// DO NOT EDIT BELOW THIS LINE ///
 module.exports = {
