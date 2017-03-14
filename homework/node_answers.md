@@ -1,5 +1,6 @@
 node_answers.md
 
+Blake Smith
 
 <!-- What are the top 6 highest-starred npm packages? (Hint: reduce the browser width to see a better list view)
  -->
